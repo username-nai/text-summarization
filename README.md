@@ -96,5 +96,7 @@ This project is licensed under the MIT License. By contributing to this project,
 
 [click here to use the app](https://text-summarization-eid3.onrender.com)
 
+Please just use it for testing purposes and it is hosted on a free tier plan. Star if you like it!!
+
 
 
