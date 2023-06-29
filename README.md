@@ -92,5 +92,9 @@ Please follow our code style guidelines when contributing to the project. This i
 
 This project is licensed under the MIT License. By contributing to this project, you agree to the terms and conditions outlined in the license file.
 
+## Live link 
+
+[click here to use the app](https://text-summarization-eid3.onrender.com)
+
 
 
