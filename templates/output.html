@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>textSum | Text Summary | Piyush Kumar</title>
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="nav-list">
+            <li class="nav-item nav-start">textSum</li>
+            <li class="nav-item nav-end">Home</li>
+            <li class="nav-item nav-end">About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h4><b>Summary:</b></h4>
+            <div class="output">
+                <p>{{ data['summary'] }}</p>
+            </div>
+    </div>
+    <div class="footer">
+        <div class="section-left">
+            <p>&copy; Copyright 2023 textSum</p>
+        </div>
+        <div class="section-right">
+            <p>Piyush Kumar</p>
+        </div>
+    </div>
+</body>
+</html>

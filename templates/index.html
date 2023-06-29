@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>textSum | Text Summary | Piyush Kumar</title>
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="nav-list">
+            <li class="nav-item nav-start">textSum</li>
+            <li class="nav-item nav-end">Home</li>
+            <li class="nav-item nav-end">About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="head-section">
+            <h1><span class="heading">TextSum - Get Text Summary in Minutes</span></h1>
+            <div class="content">Welcome to textSum, the ultimate solution for efficient summarization of text! Created by Piyush Kumar, this groundbreaking website is designed to save you valuable time by condensing lengthy articles, documents, and texts into concise summaries within minutes. </div>
+            <div class="content">
+                With textSum, you can extract key insights and main points from any text within minutes. By utilizing advanced natural language processing and machine learning techniques, textSum empowers users to quickly grasp essential information, make informed decisions, and optimize productivity.
+            </div>
+        </div>
+        <div class="summary-section">
+            <div class="text-area">
+                <form class="form" method="post" action="{{ url_for('summarize') }}">
+                    <textarea name="inputtext_" id="inputtext_" cols="80" rows="15" style="resize: none;"></textarea>
+                    <div class="wrapper">
+                        <button class="button secondary" type="submit">Summarize</button>
+                      </div>
+                  </form>
+            </div>
+            
+        </div>
+    </div>
+    <div class="footer">
+        <div class="section-left">
+            <p>&copy; Copyright 2023 textSum</p>
+        </div>
+        <div class="section-right">
+            <p>Piyush Kumar</p>
+        </div>
+    </div>
+</body>
+</html>
