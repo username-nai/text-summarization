@@ -52,16 +52,47 @@ Here are a few examples to demonstrate the effectiveness of the Text Summarizati
 
 ![Input Text](images/input.jpg)
 
+![Output Text](images/output.jpg)
+
+
 Input Text:
 
 `"The advancements in machine learning have revolutionized the way we interact with technology. From virtual assistants to recommendation systems, machine learning algorithms have become an integral part of our daily lives. In the field of natural language processing, text summarization plays a crucial role in saving time and effort when dealing with large volumes of textual content. With the help of machine learning, we can extract the key points and generate concise summaries, making it easier to comprehend and analyze information."`
 
 
-![Output Text](images/output.jpg)
+
+
 
 Generated Summary:
 
 `With the help of machine learning, we can extract the key points and generate concise summaries, making it easier to comprehend and analyze information."`
+
+**Example 2:**
+
+
+Input Text:
+
+`Welcome to textSum, the ultimate solution for efficient summarization of text! Created by Piyush Kumar, this groundbreaking website is designed to save you valuable time by condensing lengthy articles, documents, and texts into concise summaries within minutes. With textSum, you can extract key insights and main points from any text within minutes. By utilizing advanced natural language processing and machine learning techniques, textSum empowers users to quickly grasp essential information, make informed decisions, and optimize productivity.`
+
+
+Generated Summary:
+
+`Created by Piyush Kumar, this groundbreaking website is designed to save you valuable time by condensing lengthy articles, documents, and texts into concise summaries within minutes.`
+
+
+**Example 3:**
+
+Input Text:
+
+`Senior leader of India's opposition Congress party Rahul Gandhi's tour of the violence-hit Manipur state has been stopped abruptly by the police. Mr Gandhi is in the north-eastern state on a two-day visit to meet people displaced by the violence and leaders of civil society groups. For the past two months, Manipur has been convulsed by clashes between the majority Meitei and Kuki communities. More than 100 people have died and over 400 have been wounded so far. Prime Minister Narendra Modi has held a meeting with top government officials to review the situation in Manipur but he has been criticised for not visiting the state or commenting on the situation there. Almost a month after violence began, Home Minister Amit Shah visited the state to put in place a plan to restore normalcy, but fresh incidents of violence continue to be reported almost daily. After arriving in capital Imphal on Thursday morning, Mr Gandhi had shared a Facebook post saying that "restoration of peace is the top priority. Manipur needs healing, and only together we can bring harmony". But soon, senior Congress leader KC Venugopal told reporters that Mr Gandhi's convoy had been stopped by police near Bishnupur district while he was on his way to Churachandpur town to visit relief camps. "Police say that they are not in a position to allow us. People are standing on both sides of the road to wave to Rahul Gandhi. We are not able to understand why have they stopped us?" Mr Venugopal said. Police said the convoy had been stopped for Mr Gandhi's security. "Seeing the ground situation, we stopped him from moving forward and advised him to travel to Churachandpur via a helicopter," Heisnam Balram Singh, a senior police official at Bishnupur, told ANI. Party president Mallikarjun Kharge accused the Bharatiya Janata Party (BJP) government of "using autocratic methods to stall a compassionate outreach" by Mr Gandhi. "This is totally unacceptable and shatters all Constitutional and Democratic norms. Manipur needs peace, not confrontation," he tweeted. Congress MP Jairam Ramesh said Mr Gandhi's two-day visit to the state was in the spirit of his Bharat Jodo Yatra - a five-month long unity march across the country. "The Prime Minister may choose to remain silent or be inactive but why stop Rahul Gandhi's efforts to listen to all sections of the Manipuri society and provide a healing touch?" he said. However, some BJP leaders have criticised the timing of Mr Gandhi's visit, calling it politically motivated. Nearly 60,000 people have been displaced due to violence in Manipur and are taking shelter in some 350 camps. Mr Gandhi's visit comes amid the opposition's demand for the resignation of the state's chief minister, N Biren Singh, who is from the BJP. Congress leaders have criticised Mr Singh for not being able to "restore peace and normalcy" in the state and have asked for federal rule to be imposed. Broken dreams and burnt homes after India ethnic clashes Fears grow over Indian state on brink of civil war What made these grannies go nude in public? Mr Venugopal tweeted about Mr Gandhi's visit on Tuesday, and said that the state had been "burning for nearly two months" and "desperately needs a healing touch so that society can move from conflict to peace". Since the clashes began early in May, many homes, churches and temples have been destroyed by mobs while the homes of some state ministers and legislators have been attacked and set on fire. Close to 40,000 security forces have been deployed to quell the violence. But the situation continues to remain tense. Normal life has been thrown completely out of gear for the locals who are facing curfews, internet shutdowns and sporadic killings and arson.`
+
+[link to article](https://www.bbc.com/news/world-asia-india-66050336)
+
+
+Generated Summary:
+
+`Mr Gandhi is in the north-eastern state on a two-day visit to meet people displaced by the violence and leaders of civil society groups.Prime Minister Narendra Modi has held a meeting with top government officials to review the situation in Manipur but he has been criticised for not visiting the state or commenting on the situation there."The Prime Minister may choose to remain silent or be inactive but why stop Rahul Gandhi's efforts to listen to all sections of the Manipuri society and provide a healing touch?"Congress leaders have criticised Mr Singh for not being able to "restore peace and normalcy" in the state and have asked for federal rule to be imposed.Mr Venugopal tweeted about Mr Gandhi's visit on Tuesday, and said that the state had been "burning for nearly two months" and "desperately needs a healing touch so that society can move from conflict to peace".Since the clashes began early in May, many homes, churches and temples have been destroyed by mobs while the homes of some state ministers and legislators have been attacked and set on fire.`
+
 
 ## Contribution Guidelines
 
