@@ -7,6 +7,9 @@ from sumy.nlp.tokenizers import Tokenizer
 from sumy.parsers.plaintext import PlaintextParser
 import re
 
+import nltk
+nltk.download('punkt')
+
 app = Flask(__name__)
 
 @app.route("/")
