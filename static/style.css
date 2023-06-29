@@ -49,6 +49,10 @@ ul {
     margin-right: auto;
     font-weight: bolder;
 }
+
+.bold {
+    font-weight: bolder;
+}
  
 .nav-end {
     margin-left: 18px;
@@ -125,6 +129,7 @@ textarea {
     justify-content: space-around;
     padding: 48px 0;
     flex-wrap: wrap;
+    margin-top: 1.5rem;
 }
 
 .footer .section-left{
@@ -139,6 +144,10 @@ textarea {
     align-items: center;
     justify-content: center;
     text-align: center;
+}
+
+.footer a {
+    color: white;
 }
 
 .wrapper {
