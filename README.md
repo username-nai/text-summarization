@@ -11,7 +11,7 @@ Welcome to my Text Summarization project! This project utilizes machine learning
 - [Installation](#installation)
 - [Usage](#usage)
 - [Examples](#examples)
-- [Contributing](#contributing)
+- [Contribution Guidelines](#Contribution-Guidelines)
 - [License](#license)
 
 ## Introduction
@@ -50,6 +50,47 @@ Here are a few examples to demonstrate the effectiveness of the Text Summarizati
 
 **Example 1:**
 
+![Input Text](images/input.jpg)
+
 Input Text:
+
+`"The advancements in machine learning have revolutionized the way we interact with technology. From virtual assistants to recommendation systems, machine learning algorithms have become an integral part of our daily lives. In the field of natural language processing, text summarization plays a crucial role in saving time and effort when dealing with large volumes of textual content. With the help of machine learning, we can extract the key points and generate concise summaries, making it easier to comprehend and analyze information."`
+
+
+![Output Text](images/output.jpg)
+
+Generated Summary:
+
+`With the help of machine learning, we can extract the key points and generate concise summaries, making it easier to comprehend and analyze information."`
+
+## Contribution Guidelines
+
+We welcome and appreciate contributions to our project. To ensure a smooth collaboration, please follow these guidelines:
+
+### Reporting Issues
+
+If you encounter any issues or bugs, please submit a detailed bug report using the GitHub issue tracker. Include steps to reproduce the problem, expected behavior, and any relevant error messages.
+
+### Feature Requests
+
+If you have a suggestion for a new feature or improvement, please submit a feature request using the GitHub issue tracker. Provide a clear description of the proposed functionality and any relevant use cases.
+
+### Pull Requests
+
+We accept pull requests for bug fixes and new features. Before submitting a pull request, please follow these steps:
+
+1. Fork the repository and create your branch from `master`.
+2. Make your changes, ensuring that your code adheres to our coding standards.
+3. If adding new functionality, include appropriate tests and ensure that existing tests pass.
+4. Submit a pull request, providing a clear description of your changes and referencing any related issues.
+
+### Code Style
+
+Please follow our code style guidelines when contributing to the project. This includes indentation, naming conventions, and formatting. If possible, run the linter and ensure that your code meets the defined standards.
+
+## License
+
+This project is licensed under the MIT License. By contributing to this project, you agree to the terms and conditions outlined in the license file.
+
 
 
